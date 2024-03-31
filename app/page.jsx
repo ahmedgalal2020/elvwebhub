@@ -23,8 +23,8 @@ export default function Home() {
             portfolio showcases a diverse collection of projects that reflect our
             commitment to excellence.</p>
           <div className="flex gap-4 w-full">
-          <a href="/portfolio" className="p-3 rounded-lg bg-custom-p1 text-white inline-block">Our Work</a>
-          <a href="/contact" className="p-3 rounded-lg ring-1 ring-custom-p1 inline-block">Contact Us</a>
+          <a href="https://elvwebhub.com/portfolio" className="p-3 rounded-lg bg-custom-p1 text-white inline-block">Our Work</a>
+          <a href="https://elvwebhub.com/contact" className="p-3 rounded-lg ring-1 ring-custom-p1 inline-block">Contact Us</a>
           
           </div>
         </div>
