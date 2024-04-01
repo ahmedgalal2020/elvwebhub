@@ -22,10 +22,13 @@ export default function Home() {
             converge. With a keen eye for aesthetics and a mastery of Code, our
             portfolio showcases a diverse collection of projects that reflect our
             commitment to excellence.</p>
-          <div className="flex gap-4 w-full">
-          <a href="https://elvwebhub.com/portfolio" className="p-3 rounded-lg bg-custom-p1 text-white inline-block">Our Work</a>
-          <a href="https://elvwebhub.com/contact" className="p-3 rounded-lg ring-1 ring-custom-p1 inline-block">Contact Us</a>
-          
+            <div className="flex gap-4 w-full">
+            <Link href="/portfolio" passHref>
+              <a className="p-3 rounded-lg bg-custom-p1 text-white inline-block">Our Work</a>
+            </Link>
+            <Link href="/contact" passHref>
+              <a className="p-3 rounded-lg ring-1 ring-custom-p1 inline-block">Contact Us</a>
+            </Link>
           </div>
         </div>
       </div>
